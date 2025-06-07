@@ -6,4 +6,5 @@ export type TodoEntity = {
   createdAt: Date;
   updatedAt: Date;
   dueDate?: Date;
+  labels?: string[];
 };
