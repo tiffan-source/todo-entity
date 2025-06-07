@@ -25,10 +25,18 @@
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.33.1"
     },
-    "scripts": {},
+    "scripts": {
+        "prepare": "husky install"
+    },
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged",
+            "commit-msg": "commitlint --edit $HUSKY_GIT_PARAMS"
+        }
+    },
     "lint-staged": {
         "*.ts": [
             "eslint --fix",
