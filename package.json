@@ -1,0 +1,33 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Entity Module for Todo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiffan-source/Todo.git"
+  },
+  "keywords": [
+    "todo",
+    "entity",
+    "module"
+  ],
+  "author": "tiffan-source",
+  "license": "GNU",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "eslint": "^9.28.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.5.2",
+    "prettier": "^3.5.3"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
