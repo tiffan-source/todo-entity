@@ -1,6 +1,6 @@
 {
     "name": "todo-entity",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Entity Module for Todo",
     "repository": {
         "type": "git",
