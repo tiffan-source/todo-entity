@@ -1,11 +1,12 @@
 {
-    "name": "todo",
+    "name": "todo-entity",
     "version": "1.0.0",
     "description": "Entity Module for Todo",
     "repository": {
         "type": "git",
         "url": "https://github.com/tiffan-source/Todo.git"
     },
+    "homepage": "https://github.com/tiffan-source/Todo.git",
     "keywords": [
         "todo",
         "entity",
@@ -18,6 +19,7 @@
         "@commitlint/config-conventional": "^19.8.1",
         "@eslint/js": "^9.28.0",
         "@types/node": "^22.15.30",
+        "@typescript-eslint/parser": "^8.33.1",
         "eslint": "^9.28.0",
         "eslint-config-prettier": "^10.1.5",
         "husky": "^9.1.7",
@@ -28,7 +30,9 @@
     "scripts": {
         "prepare": "husky install",
         "lint": "eslint . --ext .ts",
-        "prettier": "prettier --check ."
+        "prettier": "prettier --check .",
+        "build": "tsc"
+
     },
     "type": "module",
     "main": "dist/index.js",
@@ -44,5 +48,12 @@
             "eslint --fix",
             "prettier --write"
         ]
+    },
+    "dependencies": {
+        "esm-module-alias": "^2.2.1"
+    },
+    "aliases": {
+        "@entities": "./dist/src/entities",
+        "@usecases": "./dist/src/critical-business-rules"
     }
 }

@@ -34,6 +34,20 @@
       /* Other Options: */
       "types": [],
       "rootDir": "src",
-      "emitDeclarationOnly": false // I don't want to emit declaration files only
-    }
+      "emitDeclarationOnly": false, // I don't want to emit declaration files only
+      "baseUrl": "./src",
+        "paths": {
+            "@entities/*": ["entities/*"],
+            "@usecases/*": ["critical-business-rules/*"],
+            "@entities": ["entities"],
+            "@usecases": ["critical-business-rules"],
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+    ]
   }
