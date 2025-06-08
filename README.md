@@ -42,7 +42,7 @@ Il ne contient **aucune logique d’implémentation**, aucun effet de bord, et *
 
 ## 🔗 Documentation
 
-La description complète des entités, types et cas d’usage se trouve dans le fichier [`DOC.md`](./DOC.md), maintenu séparément pour suivre l’évolution du projet.
+La description complète des entités, types et cas d’usage se trouve dans le fichier [`DOC.md`](./docs/DOC.md), maintenu séparément pour suivre l’évolution du projet.
 
 ---
 
