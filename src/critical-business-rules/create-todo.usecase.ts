@@ -1,4 +1,4 @@
-import { TodoEntity } from "@entities/index.js";
+import type { TodoEntity } from "../entities/todo.entity.js";
 
 export type TodoDto = TodoEntity | null;
 

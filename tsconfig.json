@@ -33,7 +33,6 @@
 
       /* Other Options: */
       "types": [],
-      "rootDir": "src",
       "emitDeclarationOnly": false, // I don't want to emit declaration files only
       "baseUrl": "./src",
         "paths": {

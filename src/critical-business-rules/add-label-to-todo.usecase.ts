@@ -1,5 +1,5 @@
-import type { LabelEntity } from "@entities/label.entity.js";
-import type { TodoEntity } from "@entities/todo.entity.js";
+import type { LabelEntity } from "../entities/label.entity.js";
+import type { TodoEntity } from "../entities/todo.entity.js";
 
 export interface AddLabelToTodoUseCase {
   addLabelToTodo: (params: AddLabelToTodoParams) => AddLabelToTodoResponse;

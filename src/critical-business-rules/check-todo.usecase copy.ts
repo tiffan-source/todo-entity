@@ -1,4 +1,4 @@
-import type { TodoEntity } from "@entities/todo.entity.js";
+import type { TodoEntity } from "../entities/todo.entity.js";
 
 export interface CheckTodoUseCase {
   checkTodo: (params: CheckTodoParams) => CheckTodoResponse;

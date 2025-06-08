@@ -1,4 +1,4 @@
-import type { TodoEntity } from "@entities/index.js";
+import type { TodoEntity } from "../entities/todo.entity.js";
 
 export interface UncheckTodoUseCase {
   uncheckTodo: (params: UncheckTodoParams) => UncheckTodoResponse;
