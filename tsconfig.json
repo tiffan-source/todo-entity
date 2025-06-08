@@ -38,9 +38,7 @@
       "baseUrl": "./src",
         "paths": {
             "@entities/*": ["entities/*"],
-            "@usecases/*": ["critical-business-rules/*"],
-            "@entities": ["entities"],
-            "@usecases": ["critical-business-rules"],
+            "@usecases/*": ["critical-business-rules/*"]
         }
     },
     "include": [
