@@ -1,6 +1,6 @@
 {
     "name": "todo-entity",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Entity Module for Todo",
     "repository": {
         "type": "git",
@@ -24,6 +24,7 @@
         "eslint-config-prettier": "^10.1.5",
         "husky": "^9.1.7",
         "prettier": "3.5.3",
+        "rimraf": "^6.0.1",
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.33.1"
     },
@@ -31,7 +32,8 @@
         "prepare": "husky install",
         "lint": "eslint . --ext .ts",
         "prettier": "prettier --check .",
-        "build": "tsc"
+        "build": "tsc",
+        "clean": "rimraf dist"
     },
     "type": "module",
     "main": "dist/src/index.js",
