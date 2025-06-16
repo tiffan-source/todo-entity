@@ -5,7 +5,7 @@ export interface ITodo {
   getTitle(): string;
   getDescription(): string;
   getDoneDate(): Date | undefined;
-  getDueDate(): Date;
+  getDueDate(): Date | undefined;
   describe(description: string): string;
   accomplish(): boolean;
   resurrect(): boolean;
