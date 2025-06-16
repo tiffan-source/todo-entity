@@ -11,6 +11,6 @@ export interface ITodo {
   resurrect(): boolean;
   addDeadline(deadline: Date): boolean;
   reportDeadline(deadline: Date): boolean;
-  addLabel(label: ILabel): void;
+  addLabel(label: ILabel): number;
   getLabels(): ILabel[];
 }
