@@ -15,6 +15,7 @@
     "author": "tiffan-source",
     "license": "GNU",
     "devDependencies": {
+        "@changesets/cli": "^2.29.5",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
         "@eslint/js": "^9.28.0",
@@ -33,7 +34,10 @@
         "lint": "eslint . --ext .ts",
         "prettier": "prettier --check .",
         "build": "tsc",
-        "clean": "rimraf dist"
+        "clean": "rimraf dist",
+        "changeset": "npx changeset",
+        "version": "changeset version",
+        "release": "changeset publish"
     },
     "type": "module",
     "main": "dist/src/index.js",
