@@ -1,5 +1,11 @@
 # todo-entity
 
+## 1.1.7
+
+### Patch Changes
+
+- 8e93b83: test ci with changeset
+
 ## 1.1.5
 
 ### Patch Changes
