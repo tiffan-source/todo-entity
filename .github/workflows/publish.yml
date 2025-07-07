@@ -39,8 +39,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate index.ts
-        run: bash ./index.sh
+    #   - name: Generate index.ts
+    #     run: bash ./index.sh
 
       - name: Build project
         run: npm run build
