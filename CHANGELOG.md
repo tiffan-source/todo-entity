@@ -1,5 +1,11 @@
 # todo-entity
 
+## 2.0.0
+
+### Major Changes
+
+- 8b35601: add new way to build a Todo with factory
+
 ## 1.1.7
 
 ### Patch Changes
