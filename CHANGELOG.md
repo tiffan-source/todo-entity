@@ -1,5 +1,11 @@
 # todo-entity
 
+## 2.1.0
+
+### Minor Changes
+
+- be2e1cb: factory interface to create label with existing id
+
 ## 2.0.0
 
 ### Major Changes
