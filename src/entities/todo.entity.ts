@@ -7,7 +7,7 @@ export interface ITodo {
   getDoneDate(): Date | undefined;
   getDueDate(): Date | undefined;
   describe(description: string): string;
-  accomplish(): boolean;
+  accomplish(doneDate?: Date): boolean;
   resurrect(): boolean;
   addDeadline(deadline: Date): boolean;
   reportDeadline(deadline: Date): boolean;
