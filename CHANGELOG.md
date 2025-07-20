@@ -1,5 +1,11 @@
 # todo-entity
 
+## 2.2.0
+
+### Minor Changes
+
+- eb19f08: add optional parameter to set an accomplish Date
+
 ## 2.1.0
 
 ### Minor Changes
