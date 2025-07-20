@@ -1,5 +1,11 @@
 # todo-entity
 
+## 2.3.0
+
+### Minor Changes
+
+- 6896516: add title modification behavior
+
 ## 2.2.0
 
 ### Minor Changes
