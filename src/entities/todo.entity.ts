@@ -6,6 +6,7 @@ export interface ITodo {
   getDescription(): string;
   getDoneDate(): Date | undefined;
   getDueDate(): Date | undefined;
+  modifyTitle(title: string): boolean;
   describe(description: string): string;
   accomplish(doneDate?: Date): boolean;
   resurrect(): boolean;
