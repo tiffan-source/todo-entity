@@ -13,5 +13,6 @@ export interface ITodo {
   addDeadline(deadline: Date): boolean;
   reportDeadline(deadline: Date): boolean;
   addLabel(label: ILabel): number;
+  removeLabel(label: ILabel): number;
   getLabels(): ILabel[];
 }
