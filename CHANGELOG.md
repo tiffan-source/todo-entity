@@ -1,5 +1,11 @@
 # todo-entity
 
+## 2.4.0
+
+### Minor Changes
+
+- 7436c79: add function to remove a label
+
 ## 2.3.0
 
 ### Minor Changes
